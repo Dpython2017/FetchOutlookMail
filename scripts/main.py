@@ -10,12 +10,10 @@ def main() -> dict:
     """
     Connection Details
 
-    username: ASSOCIATE_ID@cerner.net
-    email: cerner email
+    username: username
+    email: email
 
-    :Example:
-       - username: DM050767@cerner.net
-       - email: dimple.mathew@cerner.com
+
 
     To fetch the mails scripts connects to the office 365 server,
     authentication is done using LDAP creds.
